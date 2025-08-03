@@ -1,0 +1,166 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    color: #0a2b47;
+    background: #fff;
+    line-height: 1.6;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #0a2b47;
+    font-weight: bold;
+  }
+  
+  nav a.active {
+    border-bottom: 2px solid #0a2b47;
+  }
+  
+  .banner {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .banner h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #0a2b47;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .about {
+    background: #0a2b47;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .about h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  
+  .programs {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .programs h3 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .program-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .program-item {
+    max-width: 250px;
+  }
+  
+  footer {
+    background: #0a2b47;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    flex-wrap: wrap;
+  }
+  
+  footer .social a {
+    margin-left: 10px;
+  }
+  
+  footer .social img {
+    height: 20px;
+    filter: invert(1);
+  }
+  
+  .contact-form {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .contact-form h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button.btn {
+    cursor: pointer;
+    border: none;
+  }
+  body {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+  }
+  
+  body.fade-in {
+    opacity: 1;
+  }  
